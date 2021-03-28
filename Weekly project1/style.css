@@ -1,29 +1,89 @@
-#toggle{
+ #toggle{
     background-color: white;
     color: aqua;
     border-color: aqua;
     font-size: 18px;
-    display: flex;
-    align-items: center;
-    
+    display: flex; */
+    font-weight: bold;
+}
+
+
+    h1{
+        
+    font-size: 2em;
+    margin: 20px 50px 20px 25%;
+    font-weight: bold;
+}
+    }
+
+     img{
+
+      position: absolute;
+      top:150px;left: 800px;
+        height: 180px;
+        width: 200px;
+        
+    }
+
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-weight: normal;
+        display: flex;
+        align-items: flex;
+        justify-content: center;
+        color: white;
+
+
+        
+
+
+   p{
+        color: rgb(99, 99, 99);
 
 }
 
-    p{
-        text-align: center;
-        display: inline;
-        float: left;
-        
-        
-    }
+div#container{
+    margin: auto;
+    width: 70%;
+    
+}
 
-    h1{
-        text-align: center;
-        
-    }
+h3#expertiseTitle, h4{
+    text-transform: uppercase;
+    text-align: center;
+}
 
-    img{
-        padding: 30px;
-        height: 230px;
-        width: 200px;
-    }
+div.buttons{
+   display: flex;
+   flex-wrap: wrap;
+   margin: 20px;
+
+}
+
+.buttons > div{
+    width: 30%;
+    /* margin: 10px; */
+    padding: 10px;
+    text-align: center;
+}
+
+#first, #second, #fourth, #fifth{
+    border-right: solid 2px rgb(219, 216, 216);
+}
+
+#first, #second, #third{
+    border-bottom: solid 2px rgb(219, 216, 216);
+}
+
+body {
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 20px;
+    color: rgb(65, 65, 65);
+}
